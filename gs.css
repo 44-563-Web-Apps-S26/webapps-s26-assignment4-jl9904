@@ -20,7 +20,7 @@
 
 /* Stage Directions */
 .direction {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     color: black;
     background-color: #ffff; 
@@ -87,4 +87,41 @@
 /* Speech formatting enhancement */
 .speech {
     margin-left: 20px;
+}
+
+/* table styles with requirements */
+
+.cast-table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    font-family: Helvetica, Arial sans-serif;
+    text-align: center;
+}
+
+.cast-table th {
+    background-color: rgb(120, 0, 0);
+    color: white;
+    padding: 12px;
+    border: 2px solid rgb(113, 0, 0);
+    font-size: 18px;
+}
+
+.cast-table td {
+    padding: 10px;
+    border: 1px solid rgb(116, 0, 0);
+}
+
+/* Row stripes */
+.cast-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cast-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Hover effect */
+.cast-table tr:hover {
+    background-color: #98baff;
 }
