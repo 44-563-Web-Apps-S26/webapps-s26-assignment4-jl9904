@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* class styles */
+
+/* Speech */
+.speech {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+}
+
+/* Song */
+.song {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+
+/* Stage Directions */
+.direction {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ffff; 
+    padding: 5px;
+}
+
+/* Hover effect for directions */
+.direction:hover {
+    background-color: #8b8b8b;
+    color: white;
+}
+
+/* Character Name */
+.name {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* styles for each character*/
+
+.sirjoseph {
+    color: rgb(0, 0, 100);
+}
+
+.cousinhebe {
+    color: darkgreen;
+}
+
+.rel {
+    color: rgb(179, 0, 75);
+}
+
+.all {
+    color: rgb(9, 140, 150);
+}
+
+
+/* group styles */
+
+.chorus {
+    color: teal;
+}
+
+.girls {
+    color: rgb(158, 0, 185);
+}
+
+.relatives {
+    color: brown;
+}
+
+
+/* classes for song/speech */
+
+/* Song formatting enhancement */
+.song {
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+/* Speech formatting enhancement */
+.speech {
+    margin-left: 20px;
+}
